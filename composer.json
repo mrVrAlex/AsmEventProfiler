@@ -1,0 +1,31 @@
+{
+    "name": "shandy-dev/asm-event-profiler",
+    "description": "Database profiler for EventManager (also plugin for ZendDeveloperTools)",
+    "type": "zf-module",
+    "keywords": [
+        "zf2",
+        "events",
+        "profiler",
+        "zdt"
+    ],
+    "homepage": "https://github.com/shandyDev/AsmEventProfiler",
+    "authors": [
+        {
+            "name": "Alexandr Vronskiy",
+            "email": "shandy.developer@gmail.com",
+            "homepage": "http://alexandr.vronskiy.name/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.6",
+        "zendframework/zendframework": ">=2.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "AsmEventProfiler": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
