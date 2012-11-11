@@ -42,4 +42,13 @@ class Module implements AutoloaderProviderInterface
         $moduleRouteListener = new ModuleRouteListener();
         $moduleRouteListener->attach($eventManager);
     }
+
+    public function getServiceConfig()
+    {
+        return array(
+            'invokables' => array(
+                'AsmEventProfiler\EventCollector'     => 'AsmEventProfiler\Collector\EventCollector',
+            ),
+        );
+    }
 }

@@ -1,5 +1,17 @@
 <?php
 return array(
+    'zenddevelopertools' => array(
+        'profiler' => array(
+            'collectors' => array(
+                'asmeventcollector' => 'AsmEventProfiler\EventCollector',
+            )
+        ),
+        'toolbar' => array(
+            'entries' => array(
+                'asmeventcollector' => 'asm-event-profiler/toolbar/asm-event-collector',
+            )
+        ),
+    ),
     'controllers' => array(
         'invokables' => array(
             'AsmEventProfiler\Controller\Skeleton' => 'AsmEventProfiler\Controller\SkeletonController',
