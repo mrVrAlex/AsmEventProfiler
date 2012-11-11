@@ -7,7 +7,7 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace ZendSkeletonModule\Controller;
+namespace AsmEventProfiler\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 
